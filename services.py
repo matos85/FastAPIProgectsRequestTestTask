@@ -12,5 +12,5 @@ async def fetch_tariffs(currency: str = "RUB"):
 
     async with httpx.AsyncClient() as client:
         response = await client.get(Config.API_URL, headers=headers, params=params)
-        response.raise_for_status()  # Вызывает исключение для ошибок HTTP
+        response.raise_for_status()  
         return response.json()
