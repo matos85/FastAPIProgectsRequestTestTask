@@ -1,22 +1,5 @@
 # FastAPIProgectsRequestTestTask
 
-
-▎Структура проекта
-
-my_fastapi_app/
-
-app.py               # Файл приложения
-
-config.py            # Конфигурационный файл
-
-routes.py            # Файл с роутами
-
-services.py          # Файл для взаимодействия с внешними API
-
-requirements.txt     # Зависимости
-
-
-
 Запуск приложения
 
 1. Установите зависимости:
