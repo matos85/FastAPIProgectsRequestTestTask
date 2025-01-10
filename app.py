@@ -4,7 +4,6 @@ from routes import router
 
 app = FastAPI()
 
-# Регистрация маршрутов
 app.include_router(router)
 
 if __name__ == '__main__':
